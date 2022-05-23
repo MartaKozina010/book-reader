@@ -108,7 +108,7 @@ export const SingleBookCard: React.FC<Props> = (props) => {
                             {favoriteBooks.includes(props.title) ?
                                 <FavoriteRoundedIcon onDoubleClick={() => toggleFavorites(props.title)} /> :
                                 <FavoriteBorderRoundedIcon onDoubleClick={() => toggleFavorites(props.title)} />}
-                            <StyledLink to={`book/${props.id}`}><ReadBox>READ</ReadBox></StyledLink>
+                            <StyledLink to={`book-reader/book/${props.id}`}><ReadBox>READ</ReadBox></StyledLink>
                         </ButtonBox>
                     </>}
             </StyledPaper>
