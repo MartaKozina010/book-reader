@@ -2,7 +2,7 @@
   "name": "book-reader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://martakozina010.github.io",
+  "homepage": "https://martakozina010.github.io/book-reader",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.9.0",
