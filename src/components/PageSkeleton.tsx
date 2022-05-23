@@ -56,10 +56,10 @@ export const PageSkeleton: React.FC<ChildrenProps> = ({ children }) => {
             <HeaderBox>
                 <div>
                     <FlexBox>
-                        <StyledLink to="/">
+                        <StyledLink to="/book-reader">
                             <StyledH1>iKundle</StyledH1>
                         </StyledLink>
-                        <StyledLink to="/favorites">
+                        <StyledLink to="/book-reader/favorites">
                             <FavoriteRoundedIcon sx={{ color: "lightcoral" }} />
                         </StyledLink>
                     </FlexBox>
